@@ -20,6 +20,11 @@ out<- test[,c('User_ID','Product_ID','tree_pred')]
 names(out)<- c('User_ID','Product_ID','Purchase')
 write.csv(out,"C:\\Users\\matiaae\\Desktop\\DS\\Black Friday Problem\\submission1.csv")
 
+
+
+#Not yet functioning beyond this point---------------------
+
+
 attach(f)
 #glm approach
 
